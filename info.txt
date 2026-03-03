@@ -1,0 +1,31 @@
+Full-time only - Aarav, Ravi, Rahul, Tanmay
+Part-time only - Sneha, Priya, Meera
+Both full-time & part-time - Ananya
+High GPA (4.0) - Tanmay
+Low GPA (below 3.0) - Priya
+Top company experience - Rahul (Amazon), Ravi (Google)
+No work experience - Sneha, Priya, Tanmay
+Frontend/UI roles - Ananya
+Backend/DevOps roles - Aarav, Rahul
+QA roles - Meera
+
+
+
+Feature	Included
+Load candidate data from JSON	
+Filter by skills	
+Filter by location, GPA, availability	
+Sort by salary and experience	
+Shortlist up to 5 candidates	
+Justification for each candidate	
+Download shortlist as JSON	
+Download shortlist as CSV	
+View full profile in modal popup	
+
+
+
+
+
+
+danielhe@mercor.com
+
