@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-  <img src="./public/preview.png" alt="UrbanTees Preview" width="100%" />
+  <img src="./public/image1.png" alt="UrbanTees Preview" width="100%" />
 </p>
 
 ---
@@ -41,10 +41,6 @@ Built with clean code principles and production-ready structure.
 - Price: Low → High
 - Price: High → Low
 - Highest Rating
-
-### 🛒 Cart Functionality
-- Add to Cart
-- Real-time Cart Counter
 
 ### 🎨 UI/UX
 - Clean minimal design
@@ -85,3 +81,6 @@ Switching to backend requires minimal structural changes.
 ---
 
 ## 📂 Project Structure
+<p align="center">
+  <img src="./public/image.png" alt="UrbanTees Preview" width="100%" />
+</p>
