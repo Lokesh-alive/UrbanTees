@@ -1,12 +1,87 @@
-# React + Vite
+# 👕 UrbanTees  
+### Modern Fashion eCommerce UI Built With React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A sleek, scalable, filter-driven shopping experience for modern streetwear.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="./public/preview.png" alt="UrbanTees Preview" width="100%" />
+</p>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Overview
+
+**UrbanTees** is a modern, component-driven eCommerce frontend built using React and Vite.  
+It delivers a dynamic filtering system, responsive UI, and scalable architecture designed to easily integrate with cloud backends in the future.
+
+Built with clean code principles and production-ready structure.
+
+---
+
+## ✨ Core Features
+
+### 🛍 Smart Product Discovery
+- Live Search
+- Multi-condition Filtering
+- Dynamic Sorting
+
+### 🎯 Advanced Filters
+- Fabric Selection (Cotton, Linen, Hemp)
+- Price Range (Min / Max)
+- Minimum Rating
+- Discount Filter
+- Limited Edition Toggle
+- Sustainable Toggle
+- In Stock Filter
+- Category Dropdown
+
+### 📊 Sorting System
+- Price: Low → High
+- Price: High → Low
+- Highest Rating
+
+### 🛒 Cart Functionality
+- Add to Cart
+- Real-time Cart Counter
+
+### 🎨 UI/UX
+- Clean minimal design
+- Modern layout
+- Responsive grid system
+- Professional filter panel
+
+---
+
+## 🧠 Architecture Philosophy
+
+UrbanTees is built with scalability in mind.
+
+Current Data Source:
+- Local `products.json`
+
+Future Upgrade Path:
+- REST API integration
+- Firebase
+- Node + Express backend
+- MongoDB Atlas
+- Full cloud deployment
+
+Switching to backend requires minimal structural changes.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| React | UI Framework |
+| Vite | Lightning-fast bundler |
+| JavaScript (ES6+) | Core logic |
+| CSS3 | Styling |
+| JSON | Local data source |
+
+---
+
+## 📂 Project Structure
