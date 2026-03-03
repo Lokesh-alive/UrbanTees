@@ -108,9 +108,149 @@ nav a:hover {
 }
 
 /* ============================= */
-/* Filters */
+/* Filters Container */
 /* ============================= */
 
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 30px 0;
+  padding: 20px;
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.05), rgba(255, 77, 77, 0.05));
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  animation: slideDown 0.6s ease-out;
+  align-items: center;
+}
+
+.filters-container input[type="text"] {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 14px;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 180px;
+  font-weight: 500;
+}
+
+.filters-container input[type="text"]::placeholder {
+  color: var(--text);
+  opacity: 0.6;
+}
+
+.filters-container input[type="text"]:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(255, 77, 77, 0.1);
+}
+
+.filters-container input[type="text"]:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.1);
+}
+
+.filters-container select,
+.filters-container label {
+  font-size: 14px;
+}
+
+.filters-container select {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 600;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ff4d4d' stroke-width='2'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 20px;
+  padding-right: 35px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 13px;
+}
+
+.filters-container select:hover {
+  border-color: var(--accent);
+  box-shadow: 0 6px 16px rgba(255, 77, 77, 0.2);
+  transform: translateY(-2px);
+}
+
+.filters-container select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.15);
+}
+
+/* Fabric Section */
+.fabric-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.fabric-section p {
+  margin: 0;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.fabric-section label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.fabric-section label:hover {
+  background: rgba(255, 77, 77, 0.1);
+  color: var(--accent);
+}
+
+/* Checkbox styles */
+.filters-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: var(--accent);
+  transition: all 0.2s ease;
+}
+
+.filters-container input[type="checkbox"]:hover {
+  transform: scale(1.15);
+}
+
+.filters-container label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.filters-container label:hover {
+  background: rgba(255, 77, 77, 0.1);
+  color: var(--accent);
+}
+
+/* Legacy .filters styles for backward compatibility */
 .filters {
   display: flex;
   flex-wrap: wrap;
